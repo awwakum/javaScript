@@ -6,7 +6,8 @@ function steamroller(arr) {
     }
     
     do {
-            arr = [].concat.apply([], arr);
+        //apply method of concat take the second parameter as an array
+        arr = [].concat.apply([], arr);
     } while (arr.some(isArr)); 
         
         
